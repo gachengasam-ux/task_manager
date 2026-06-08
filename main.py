@@ -32,7 +32,6 @@ def main():
         elif choice == "2":
 
             index = int(input("Enter task index: "))
-
             mark_task_as_complete(index)
 
         elif choice == "3":

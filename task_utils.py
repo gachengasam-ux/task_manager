@@ -31,6 +31,8 @@ def add_task(title, description, due_date):
 
 def mark_task_as_complete(index, tasks=tasks):
 
+    index = index - 1  # convert from 1-based to 0-based
+
     if index < 0 or index >= len(tasks):
         return
 
