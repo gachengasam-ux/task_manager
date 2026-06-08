@@ -1,7 +1,5 @@
 from datetime import datetime
 
-from datetime import datetime
-
 def validate_task_title(title):
     return isinstance(title, str) and len(title.strip()) > 0
 
